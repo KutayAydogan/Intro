@@ -1,11 +1,11 @@
-def Hasan(x,y,z,a,b):
-    m=x+y
-    m= m*z
-    m= m*a/b
+#Hasanın ve boranın annesinin yaşının karşılaştırlması
+def Hasan(x,y):
+    m=(x+y)/2 #aritmetik ortalama
     return m
-d=5
-e=8
-k=4
-l=7
-o=2
-print(Hasan(d,e,k,l,o))
+d=50
+e=52
+print(Hasan(d,e))
+if d>e:
+    print("Hasanın annesi Boranın annesinden yaslıdır")
+else:
+    print("Boranın annesi Hasanın annesinden yaşlıdır")
