@@ -6,6 +6,7 @@ while True:
     your_choice = your_choice.lower()
     while your_choice not in choices:
             your_choice = input("Your selection was wrong please select rock, paper or scissors:")
+            your_choice = your_choice.lower()
             if your_choice in choices:
                 break
     print(f"\nYou chose {your_choice}, computer chose {pc_choice}.\n")
